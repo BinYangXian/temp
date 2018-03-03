@@ -1,0 +1,473 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>数据库名：ecology80模块表结构目录 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+<style>
+body, td {
+font-family: 微软雅黑;
+font-size: 12px;
+line-height: 150%;
+}
+table {
+width: 100%;
+background-color: #ccc;
+margin: 5px 0;
+word-break: break-all;
+}
+td {
+	background-color: #fff;
+	padding: 3px;
+padding-left: 10px;
+}
+thead td {
+	text-align: left;
+font-weight: bold;
+background-color: #eee;
+}
+a:link, a:visited, a:active {
+color: #015FB6;
+text-decoration: none;
+}
+a:hover {
+color: #E33E06;
+}
+.tablename {
+margin-top: 30px;
+}
+.outdiv {
+width: 1000px;
+margin: 40px auto;
+text-align: left;
+}
+
+</style>
+</head>
+<body>
+<center>
+<div class="outdiv">
+<h2 style='text-align: center; line-height: 40px;'>数据库名：ecology80模块表结构目录</h2>
+<table cellspacing="1" cellpadding="0"> 
+ <colgroup> 
+  <col width="5%"> 
+  <col width="20%"> 
+  <col width="20%"> 
+  <col width="15%"> 
+  <col width="40%">
+ </colgroup> 
+ <thead> 
+  <tr> 
+   <td>序号</td> 
+   <td>表名</td> 
+   <td>中文名称</td> 
+   <td>表类型</td> 
+   <td>说明</td>
+  </tr>
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td style="text-align: center;">1</td> 
+   <td><a href="modetreefield(应用基本信息表).html">modetreefield</a></td> 
+   <td>应用基本信息表</td> 
+   <td>表单建模</td> 
+   <td>应用基本信息表<br></td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">2</td> 
+   <td><a href="modeinfo(模块基本信息表).html">modeinfo</a></td> 
+   <td>模块基本信息表</td> 
+   <td>表单建模</td> 
+   <td>模块基本信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">3</td> 
+   <td><a href="modehtmllayout(模块布局基本信息).html">modehtmllayout</a></td> 
+   <td>模块布局基本信息</td> 
+   <td>表单建模</td> 
+   <td>模块布局基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">4</td> 
+   <td><a href="modeformfield(模块布局字段信息表).html">modeformfield</a></td> 
+   <td>模块布局字段信息表</td> 
+   <td>表单建模</td> 
+   <td>模块布局字段信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">5</td> 
+   <td><a href="modeformgroup(布局明细组属性表).html">modeformgroup</a></td> 
+   <td>布局明细组属性表</td> 
+   <td>表单建模</td> 
+   <td>明细组属性表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">6</td> 
+   <td><a href="modefieldattr(布局字段属性表).html">modefieldattr</a></td> 
+   <td>布局字段属性表</td> 
+   <td>表单建模</td> 
+   <td>布局字段属性表，布局上右键“属性”设置的信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">7</td> 
+   <td><a href="moderightinfo(模块权限设置表).html">moderightinfo</a></td> 
+   <td>模块权限设置表</td> 
+   <td>表单建模</td> 
+   <td>模块权限规则基本信息表，对应模块中配置的规则信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">8</td> 
+   <td><a href="modedatashare_xxx_set(建模数据权限规则表).html">modedatashare_xxx_set</a></td> 
+   <td>建模数据权限规则表</td> 
+   <td>表单建模</td> 
+   <td>建模数据权限规则表，创建模块时自动创建，modedatashare_xxx_set其中xxx代表模块的id，即每个模块都有对应的建模数据权限规则表。此表的数据基本都是根据模块设置的权限规则，复制而来，所以字段含义也基本和moderightinfo表中一致。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">9</td> 
+   <td><a href="modedatashare_xxx(建模数据权限详细表).html">modedatashare_xxx</a></td> 
+   <td>建模数据权限详细表</td> 
+   <td>表单建模</td> 
+   <td>建模数据权限详细表，创建模块时自动创建，modedatashare_xxx其中xxx代表模块的id，即每个模块都有对应的建模数据权限详细表。此表的数据都是根据建模数据权限规则表(modedatashare_xxx_set)中的数据解析而来。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">10</td> 
+   <td><a href="mode_expressions(权限条件关系表).html">mode_expressions</a></td> 
+   <td>权限条件关系表</td> 
+   <td>表单建模</td> 
+   <td>权限条件关系表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">11</td> 
+   <td><a href="mode_expressionbase(权限条件关系详细表).html">mode_expressionbase</a></td> 
+   <td>权限条件关系详细表</td> 
+   <td>表单建模</td> 
+   <td>权限条件关系详细表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">12</td> 
+   <td><a href="defaultvalue(默认值基本信息).html">defaultvalue</a></td> 
+   <td>默认值基本信息</td> 
+   <td>表单建模</td> 
+   <td>默认值基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">13</td> 
+   <td><a href="modeattrlinkage(属性联动基本信息表).html">modeattrlinkage</a></td> 
+   <td>属性联动基本信息表</td> 
+   <td>表单建模</td> 
+   <td>属性联动是通过选择框选择不同的值去改变其他字段的必填、可编辑和只读属性</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">14</td> 
+   <td><a href="modedatainputentry(字段联动设置基本信息).html">modedatainputentry</a></td> 
+   <td>字段联动设置基本信息</td> 
+   <td>表单建模</td> 
+   <td>字段联动设置基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">15</td> 
+   <td><a href="modedatainputmain(字段联动设置主信息).html">modedatainputmain</a></td> 
+   <td>字段联动设置主信息</td> 
+   <td>表单建模</td> 
+   <td>字段联动设置主信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">16</td> 
+   <td><a href="modedatainputtable(字段联动引用数据库表名).html">modedatainputtable</a></td> 
+   <td>字段联动引用数据库表名</td> 
+   <td>表单建模</td> 
+   <td>字段联动引用数据库表名</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">17</td> 
+   <td><a href="modedatainputfield(字段联动字段信息).html">modedatainputfield</a></td> 
+   <td>字段联动字段信息</td> 
+   <td>表单建模</td> 
+   <td>字段联动字段信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">18</td> 
+   <td><a href="modefieldauthorize(数据关联授权基本信息表).html">modefieldauthorize</a></td> 
+   <td>数据关联授权基本信息表</td> 
+   <td>表单建模</td> 
+   <td>表单建模关联数据授权功能是指将卡片上关联字段的数据权限跟随卡片数据本身的权限</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">19</td> 
+   <td><a href="mode_triggerworkflowset(数据审批基本信息).html">mode_triggerworkflowset</a></td> 
+   <td>数据审批基本信息</td> 
+   <td>表单建模</td> 
+   <td>数据审批是指将表单建模的数据，通过保存等方式，触发工作流程，进行审批。设置好数据审批后，还需要在模块对应的页面扩展按钮中勾“是否触发审批工作流”，点击对应的按钮时才会触发工作流。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">20</td> 
+   <td><a href="mode_triggerworkflowsetdetail(数据审批详细信息).html">mode_triggerworkflowsetdetail</a></td> 
+   <td>数据审批详细信息</td> 
+   <td>表单建模</td> 
+   <td>数据审批详细信息，存储表单建模和工作流程中的字段对应关系</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">21</td> 
+   <td><a href="mode_dataapprovalinfo(数据审批记录表).html">mode_dataapprovalinfo</a></td> 
+   <td>数据审批记录表</td> 
+   <td>表单建模</td> 
+   <td>数据审批记录表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">22</td> 
+   <td><a href="mode_workflowtomodeset(流程转数据基本信息).html">mode_workflowtomodeset</a></td> 
+   <td>流程转数据基本信息</td> 
+   <td>表单建模</td> 
+   <td>流程转数据基本信息，流程流转的过程中，通过节点前附加操作和节点后附加操作触发WorkflowToMode接口的方式，生成表单建模数据。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">23</td> 
+   <td><a href="mode_workflowtomodesetdetail(流程转数据详细表).html">mode_workflowtomodesetdetail</a></td> 
+   <td>流程转数据详细表</td> 
+   <td>表单建模</td> 
+   <td>流程转数据详细表，存储表单建模和工作流程中的字段对应关</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">24</td> 
+   <td><a href="mode_pageexpand(页面扩展基本信息).html">mode_pageexpand</a></td> 
+   <td>页面扩展基本信息</td> 
+   <td>表单建模</td> 
+   <td>页面扩展基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">25</td> 
+   <td><a href="mode_pageexpanddetail(页面扩展详细信息).html">mode_pageexpanddetail</a></td> 
+   <td>页面扩展详细信息</td> 
+   <td>表单建模</td> 
+   <td>页面扩展详细信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">26</td> 
+   <td><a href="mode_pagerelatefield(页面扩展相关字段信息).html">mode_pagerelatefield</a></td> 
+   <td>页面扩展相关字段信息</td> 
+   <td>表单建模</td> 
+   <td>页面扩展相关字段信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">27</td> 
+   <td><a href="mode_pagerelatefielddetail(页面扩展相关字段详细设置).html">mode_pagerelatefielddetail</a></td> 
+   <td>页面扩展相关字段详细设置</td> 
+   <td>表单建模</td> 
+   <td>页面扩展相关字段详细设置</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">28</td> 
+   <td><a href="mode_pageexpandtemplate(模块页面扩展初始化数据).html">mode_pageexpandtemplate</a></td> 
+   <td>模块页面扩展初始化数据</td> 
+   <td>表单建模</td> 
+   <td>模块页面扩展初始化数据，新建模块时，根据此表单的值，生成模块自己的页面扩展</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">29</td> 
+   <td><a href="mode_dmlactionset(DML接口动作基本信息).html">mode_dmlactionset</a></td> 
+   <td>DML接口动作基本信息</td> 
+   <td>表单建模</td> 
+   <td>DML接口动作基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">30</td> 
+   <td><a href="mode_dmlactionsqlset(DML接口动作详细信息).html">mode_dmlactionsqlset</a></td> 
+   <td>DML接口动作详细信息</td> 
+   <td>表单建模</td> 
+   <td>DML接口动作详细信息，Dmlaction配置生成sql表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">31</td> 
+   <td><a href="mode_dmlactionfieldmap(DML配置字段映射表).html">mode_dmlactionfieldmap</a></td> 
+   <td>DML配置字段映射表</td> 
+   <td>表单建模</td> 
+   <td>DML配置字段映射表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">32</td> 
+   <td><a href="mode_databatchimport(批量导入设置).html">mode_databatchimport</a></td> 
+   <td>批量导入设置</td> 
+   <td>表单建模</td> 
+   <td>批量导入设置，对应接口路径设置的相关信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">33</td> 
+   <td><a href="modecode(字段编码基本信息).html">modecode</a></td> 
+   <td>字段编码基本信息</td> 
+   <td>表单建模</td> 
+   <td>字段编码基本信息，创建模块时，会生成基本编码信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">34</td> 
+   <td><a href="modecodedetail(字段编码详细信息).html">modecodedetail</a></td> 
+   <td>字段编码详细信息</td> 
+   <td>表单建模</td> 
+   <td>字段编码详细信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">35</td> 
+   <td><a href="formmodelog(后台操作日志表).html">formmodelog</a></td> 
+   <td>后台操作日志表</td> 
+   <td>表单建模</td> 
+   <td>记录后台操作日志</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">36</td> 
+   <td><a href="modeformextend(虚拟表单信息表).html">modeformextend</a></td> 
+   <td>虚拟表单信息表</td> 
+   <td>表单建模</td> 
+   <td>存储虚拟表单信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">37</td> 
+   <td><a href="mode_customsearch(查询基本信息表).html">mode_customsearch</a></td> 
+   <td>查询基本信息表</td> 
+   <td>表单建模</td> 
+   <td>查询基本信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">38</td> 
+   <td><a href="mode_customdspfield(查询列表字段信息).html">mode_customdspfield</a></td> 
+   <td>查询列表字段信息</td> 
+   <td>表单建模</td> 
+   <td>查询列表字段信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">39</td> 
+   <td><a href="customfieldshowchange(显示转换基本信息).html">customfieldshowchange</a></td> 
+   <td>显示转换基本信息</td> 
+   <td>表单建模</td> 
+   <td>显示转换基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">40</td> 
+   <td><a href="mode_searchpageshareinfo(查询列表权限信息表).html">mode_searchpageshareinfo</a></td> 
+   <td>查询列表权限信息表</td> 
+   <td>表单建模</td> 
+   <td>查询列表权限信息表，在此页面设置查看或监控权限后，模块中设置的共享或监控权限将不能访问对应的菜单页面</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">41</td> 
+   <td><a href="mode_customsearchbutton(查询列表自定义按钮基本信息表).html">mode_customsearchbutton</a></td> 
+   <td>查询列表自定义按钮基本信息表</td> 
+   <td>表单建模</td> 
+   <td>查询列表自定义按钮基本信息表，在查询列表的每条数据的最后面，会显示此按钮</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">42</td> 
+   <td><a href="mode_batchset(批量操作设置信息表).html">mode_batchset</a></td> 
+   <td>批量操作设置信息表</td> 
+   <td>表单建模</td> 
+   <td>批量操作设置信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">43</td> 
+   <td><a href="mode_report(报表基本信息).html">mode_report</a></td> 
+   <td>报表基本信息</td> 
+   <td>表单建模</td> 
+   <td>报表基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">44</td> 
+   <td><a href="mode_reportdspfield(报表字段信息表).html">mode_reportdspfield</a></td> 
+   <td>报表字段信息表</td> 
+   <td>表单建模</td> 
+   <td>报表字段信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">45</td> 
+   <td><a href="mode_reportshareinfo(报表权限信息表).html">mode_reportshareinfo</a></td> 
+   <td>报表权限信息表</td> 
+   <td>表单建模</td> 
+   <td>报表权限信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">46</td> 
+   <td><a href="mode_custombrowser(浏览框基本信息).html">mode_custombrowser</a></td> 
+   <td>浏览框基本信息</td> 
+   <td>表单建模</td> 
+   <td>浏览框基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">47</td> 
+   <td><a href="mode_custombrowserdspfield(浏览框字段信息表).html">mode_custombrowserdspfield</a></td> 
+   <td>浏览框字段信息表</td> 
+   <td>表单建模</td> 
+   <td>浏览框字段信息表</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">48</td> 
+   <td><a href="datashowset(浏览框信息(建模部分)).html">datashowset</a></td> 
+   <td>浏览框信息(建模部分)</td> 
+   <td>表单建模</td> 
+   <td>浏览框信息，此信息会存入到datashowset表中，同时也会同步到ecology/WEB-INF/service/browser.xml中，且通过集成中心创建的浏览框等信息也在此表中，下面仅就表单建模用到的字段进行说明</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">49</td> 
+   <td><a href="mode_customtree(树形基本信息).html">mode_customtree</a></td> 
+   <td>树形基本信息</td> 
+   <td>表单建模</td> 
+   <td>树形基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">50</td> 
+   <td><a href="mode_customtreedetail(树形节点基本信息).html">mode_customtreedetail</a></td> 
+   <td>树形节点基本信息</td> 
+   <td>表单建模</td> 
+   <td>树形节点基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">51</td> 
+   <td><a href="mode_custompage(自定义页面基本信息).html">mode_custompage</a></td> 
+   <td>自定义页面基本信息</td> 
+   <td>表单建模</td> 
+   <td>自定义页面基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">52</td> 
+   <td><a href="mode_custompagedetail(自定义页面详细信息).html">mode_custompagedetail</a></td> 
+   <td>自定义页面详细信息</td> 
+   <td>表单建模</td> 
+   <td>自定义页面详细信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">53</td> 
+   <td><a href="mode_remindjob(提醒基本信息).html">mode_remindjob</a></td> 
+   <td>提醒基本信息</td> 
+   <td>表单建模</td> 
+   <td>提醒基本信息</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">54</td> 
+   <td><a href="mode_reminddata(提醒数据信息表).html">mode_reminddata</a></td> 
+   <td>提醒数据信息表</td> 
+   <td>表单建模</td> 
+   <td>提醒数据信息表，仅仅当到期提醒时，模块数据的新建或编辑，都会把当前数据要提醒的数据按照提醒规则进行计算，存入此表，以备数据提醒。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">55</td> 
+   <td><a href="mode_reminddata_log(提醒日志表).html">mode_reminddata_log</a></td> 
+   <td>提醒日志表</td> 
+   <td>表单建模</td> 
+   <td>提醒日志表，到期提醒每运行一次，都会记录一次日志，每个到期提醒的设置，最多记录100条日志，主要用来记录最近一次提醒的时间，下次到期提醒运行时，只会提醒上次提醒的时间到当前时间之间的应该提醒的数据。</td>
+  </tr> 
+  <tr> 
+   <td style="text-align: center;">56</td> 
+   <td><a href="mode_customresource(资源面板基本信息).html">mode_customresource</a></td> 
+   <td>资源面板基本信息</td> 
+   <td>表单建模</td> 
+   <td>资源面板基本信息</td>
+  </tr>
+  <tr> 
+   <td style="text-align: center;">57</td> 
+   <td><a href="modeqrcode(二维码配置信息表).html">modeqrcode</a></td> 
+   <td>二维码配置信息表</td> 
+   <td>表单建模</td> 
+   <td>二维码配置信息表</td>
+  </tr>
+ </tbody>
+</table>
+</div>
+</center>
+</body>
+</html>
+
